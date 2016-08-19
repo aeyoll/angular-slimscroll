@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ziscloud/angular-slimscroll/issues"
   },
-  "homepage": "https://github.com/ziscloud/angular-slimscroll#readme"
+  "homepage": "https://github.com/ziscloud/angular-slimscroll#readme",
+  "dependencies": {
+    "jquery-slimscroll": "^1.3.8"
+  }
 }
