@@ -1,7 +1,7 @@
 (function() {
-    angular.module('ui.slimscroll', []).directive('slimscroll', ['$timeout', '$window', function($timeout, $window) {
-        'use strict';
+    'use strict';
 
+    angular.module('ui.slimscroll', []).directive('slimscroll', ['$timeout', '$window', function($timeout, $window) {
         return {
             restrict: 'A',
             link: function($scope, $elem, $attr) {
